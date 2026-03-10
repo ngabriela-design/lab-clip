@@ -5,8 +5,19 @@
         <meta name="viewport">
         <style>
             .ex1 img {clip-path: ellipse(25% 40% at 50% 50%);}
-            .ex2 img {}
-            .ex3 img {}
+            .ex2 img {
+                mask-image: url(images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAyL3YzNzEtYWV3LTEwNy1oYWxmdG9uZS0xNzM2LnBuZw\ \(1\).webp);
+
+                -webkit-mask-image:url(images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAyL3YzNzEtYWV3LTEwNy1oYWxmdG9uZS0xNzM2LnBuZw\ \(1\).webp);
+
+                mask-repeat: no-repeat;
+                mask-position: center;
+            }
+            .ex3 img {
+                background-blend-mode:soft-light;
+                background-color: darksalmon;
+                background-size: cover;
+            }
             .ex4 img {}
         </style>
     </head>
@@ -16,8 +27,21 @@
             <figure class="ex1">
                 <img src="images/pexels-davidohboy-15578740.1.png" alt="demo image">
             </figure>    
-                <figcaption>Example 1</figcaption>
+                <figcaption>Example 1: Clip Path</figcaption>
+            <figure class="ex2">
+                <img src="images/pexels-duc-nguyen-400576574-33952475 (1).jpg" alt="demo 2 image">
+            </figure>
+                <figcaption>Example 2: Masking</figcaption>
             
+            <figure class="ex3">
+                <img src="images/pexels-janetrangdoan-1092730 (1).jpg" alt="demo 3 image">
+            </figure>
+                <figcaption>Example 3: Blending</figcaption>
+            
+            <figure class="ex4">
+                <img src="images/pexels-pixabay-67857 (1).jpg" alt="demo image 4">
+            </figure>
+                <figcaption>Example 4: Shape Outside</figcaption>
     </body>
 
 </html>
