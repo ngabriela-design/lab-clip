@@ -14,10 +14,18 @@
                 mask-repeat: no-repeat;
                 mask-position: center;
             }
-            .ex3 img {
-                background-blend-mode:soft-light;
-                background-color: darksalmon;
+            .ex3 img:first-child {
+                mix-blend-mode:soft-light;
+                position: absolute;
+                height: 250px;
+                width: 250;
                 background-size: cover;
+            }
+            .ex img:second-child{
+                max-width: 350px;
+                max-height: 250px;
+                position: absolute;
+
             }
             .ex4 img {
                 float: left;
@@ -42,7 +50,8 @@
                 <figcaption>Example 2: Masking</figcaption>
                 <hr>
             <figure class="ex3">
-                <img src="images/pexels-janetrangdoan-1092730 (1).jpg" alt="demo 3 image, smoothie bowl surrounded by assortment of fruit around it">
+                <img src="images/pexels-janetrangdoan-1092730 (1).jpg" alt="demo 3.1 image, smoothie bowl surrounded by assortment of fruit around it">
+                <img src="images/pexels-iriser-1122639.jpg" alt="demo image 3.2">
             </figure>
                 <figcaption>Example 3: Blending</figcaption>
                 <hr>
