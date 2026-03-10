@@ -10,3 +10,11 @@
   font-weight: 400;
   font-style: normal;
 }
+
+h1{
+    font-family: "Annie Use Your Telescope", cursive;
+}
+
+p{
+    font-family: "Happy Monkey", system-ui;
+}
