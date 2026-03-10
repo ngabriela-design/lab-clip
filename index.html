@@ -10,6 +10,7 @@
 
                 -webkit-mask-image:url(images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAyL3YzNzEtYWV3LTEwNy1oYWxmdG9uZS0xNzM2LnBuZw\ \(1\).webp);
 
+                clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
                 mask-repeat: no-repeat;
                 mask-position: center;
             }
@@ -20,11 +21,10 @@
             }
             .ex4 img {
                 float: left;
-                height: 200px;
-                width: 200px;
-                shape-margin: 1rem;
-                shape-outside: circle(30%);
-                clip-path: circle(25% 30% at 50% 50%);
+                shape-outside: polygon(0 0, 0 300px, 200px 300px);
+                clip-path: polygon(0 0, 0 300px, 200px 300px);
+                height: 250px;
+                width: 250px;
             }
         </style>
     </head>
@@ -48,7 +48,11 @@
                 <hr>
             <figure class="ex4">
                 <img src="images/pexels-pixabay-67857 (1).jpg" alt="demo image 4, close up image of daisies">
-                    <p>Sample text. This is a close up image of daisies. They are white daisies surrounded by leaves and grass. The leaves are a pretty shade of green, and so is the grass. This is an example of using a clip path to let text shape around the image in a funa nd creative way.</p>
+                    <p>Sample text. This is a close up image of daisies. <br>
+                    They are white daisies surrounded by leaves and grass. <br>
+                    The leaves are a pretty shade of green, and so is the grass. <br>
+                    This is an example of using a clip path to let text shape around the image in a fun and creative way.<br>
+                    Sample text.</p>
             </figure>
                 <figcaption>Example 4: Shape Outside</figcaption>
     </body>
