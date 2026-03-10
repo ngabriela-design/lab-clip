@@ -6,26 +6,25 @@
         <style>
             .ex1 img {clip-path: ellipse(25% 40% at 50% 50%);}
             .ex2 img {
-                mask-image: url(images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAyL3YzNzEtYWV3LTEwNy1oYWxmdG9uZS0xNzM2LnBuZw\ \(1\).webp);
-
-                -webkit-mask-image:url(images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAyL3YzNzEtYWV3LTEwNy1oYWxmdG9uZS0xNzM2LnBuZw\ \(1\).webp);
-
-                clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+                mask-image: url(images/fluid-shapes-10.svg);
+                -webkit-mask-image:url(images/fluid-shapes-10.svg);
+                max-height: 1000px;
+                max-width: 900px;
                 mask-repeat: no-repeat;
                 mask-position: center;
             }
             .ex3 img:first-child {
-                mix-blend-mode:soft-light;
+                mix-blend-mode:color-burn;
                 position: absolute;
-                height: 250px;
-                width: 250;
+                height: 400px;
+                width: 400px;
                 background-size: cover;
             }
             .ex img:second-child{
                 max-width: 350px;
                 max-height: 250px;
                 position: absolute;
-
+                background-size:cover;
             }
             .ex4 img {
                 float: left;
